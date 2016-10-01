@@ -1,6 +1,7 @@
 node_modules
 dist
-.log
+firebase-debug.log
 .tmp
 .sass-cache
+.vscode
 bower_components
