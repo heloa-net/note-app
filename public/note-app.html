@@ -4,7 +4,14 @@
 
 <dom-module id="note-app">
   <template>
-    <style include="note-app-shared-styles"></style>  
+    <style include="note-app-shared-styles"></style>
+    <na-toolbar></na-toolbar>
+    <na-login></na-login>
+    <firebase-auth
+      id="auth"
+      app-name="notes"
+      provider="google">
+    </firebase-auth>
   </template>
   <script>
     Polymer({
